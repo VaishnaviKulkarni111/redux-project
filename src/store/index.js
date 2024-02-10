@@ -1,4 +1,4 @@
-import { createStore } from 'redux';
+import { createStoreHook } from "react-redux";
 
 const counterReducer = (state = { counter: 0 }, action) => {
   if (action.type === 'increment') {
@@ -16,7 +16,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
   return state;
 };
 
-const store = createStore(counterReducer);
+const store = createStoreHook(counterReducer);
 
 export default store;
 
