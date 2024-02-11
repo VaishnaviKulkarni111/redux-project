@@ -1,5 +1,5 @@
 import classes from './Auth.module.css';
-import { authActions } from '../store';
+import { authActions } from '../store/AuthSlice';
 import { useDispatch } from 'react-redux';
 
 const Auth = () => {
