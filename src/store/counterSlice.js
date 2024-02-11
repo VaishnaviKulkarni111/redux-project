@@ -24,4 +24,4 @@ CounterSlice.actions.toggleCounter();
 
 export const counterActions = CounterSlice.actions;
 
-export default CounterSlice;
+export default CounterSlice.reducer;
